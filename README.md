@@ -78,7 +78,7 @@ You can add **multiple instances** of the integration
 
 For each configured calendar, an ICS file is created under:
 
-/config/www/timetree_<calendar_name>.ics
+/config/www/timetree_*calendar_name*.ics
 
 ---
 
@@ -89,7 +89,7 @@ For each configured calendar, an ICS file is created under:
 1. Open **HACS**
 2. Install coustum Integration **ICS Calendar** [https://github.com/franc6/ics_calendar]
 3. Enter the URL: 
-   http://<your-ha-url>/local/timetree_<calendar_name>.ics
+   http://*your-ha-url*/local/timetree_*calendar_name*.ics
 4. Enable **auto refresh**
 
 ### Other Options
