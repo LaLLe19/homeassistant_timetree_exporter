@@ -1,0 +1,9 @@
+export:
+  name: "Export TimeTree Calendar"
+  description: "Exportiert eine ICS Datei aus TimeTree"
+  fields:
+    output:
+      name: "Output Pfad"
+      required: true
+      example: "/config/www/timetree.ics"
+

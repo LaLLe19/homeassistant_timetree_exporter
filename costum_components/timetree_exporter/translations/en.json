@@ -1,0 +1,42 @@
+{
+  "config": {
+    "flow_title": "TimeTree Exporter",
+    "step": {
+      "user": {
+        "title": "Connect to TimeTree",
+        "description": "Enter your TimeTree account credentials.",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      },
+      "calendar": {
+        "title": "Select calendar",
+        "description": "Give the calendar a name and select the TimeTree calendar to export.",
+        "data": {
+          "calendar_name": "Calendar name",
+          "calendar_id": "TimeTree calendar"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to TimeTree.",
+      "invalid_auth": "Invalid email or password."
+    },
+    "abort": {
+      "already_configured": "This calendar is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "TimeTree Exporter Options",
+        "description": "Adjust update interval or update your password.",
+        "data": {
+          "export_interval": "Export interval (minutes)",
+          "password": "Update password"
+        }
+      }
+    }
+  }
+}
