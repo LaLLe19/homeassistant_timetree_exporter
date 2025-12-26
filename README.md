@@ -114,5 +114,4 @@ MIT License
 
 ## 🙌 Credits
 
-TimeTree Exporter (Python) - https://github.com/eoleedi/TimeTree-Exporter
-Home Assistant Community
+TimeTree Exporter (Python) - https://github.com/eoleedi/TimeTree-Exporter, ICS Calendar Integration - https://github.com/franc6/ics_calendar and Home Assistant Community
