@@ -44,7 +44,7 @@ THX @eoleedi
 
 ---
 
-## 📦 Installation (HACS – recommended)
+## Installation (HACS – recommended)
 
 1. Open **HACS**
 2. Go to **Integrations**
