@@ -1,10 +1,10 @@
 {
   "domain": "timetree_exporter",
-  "name": "Homeassitant TimeTree Exporter",
+  "name": "Homeassistant TimeTree Exporter",
   "version": "1.0.0",
   "config_flow": true,
-  "documentation": "https://github.com/LaLLe19/timetree_exporter",
-  "issue_tracker": "https://github.com/LaLLe19/timetree_exporter/issues",
+  "documentation": "https://github.com/LaLLe19/homeassistent_timetree_exporter",
+  "issue_tracker": "https://github.com/LaLLe19/homeassistent_timetree_exporter/issues",
   "requirements": [
     "timetree-exporter>=0.5.0",
     "icalendar>=5.0.0"
