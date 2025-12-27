@@ -1,4 +1,4 @@
-DOMAIN = "timetree_exporter"
+DOMAIN = "homeassistant_timetree_exporter"
 
 CONF_EMAIL = "email"
 CONF_PASSWORD = "password"

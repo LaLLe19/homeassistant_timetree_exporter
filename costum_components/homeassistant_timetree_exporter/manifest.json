@@ -1,5 +1,5 @@
 {
-  "domain": "timetree_exporter",
+  "domain": "homeassistant_timetree_exporter",
   "name": "Homeassistant TimeTree Exporter",
   "version": "1.0.0",
   "config_flow": true,
