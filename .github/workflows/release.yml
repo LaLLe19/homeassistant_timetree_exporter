@@ -1,0 +1,34 @@
+name: Build & Release for HACS
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate HACS structure
+        run: |
+          if [ ! -d "custom_components/homeassistant_timetree_exporter" ]; then
+            echo "❌ custom_components/homeassistant_timetree_exporter not found"
+            exit 1
+          fi
+          if [ ! -f "custom_components/homeassistant_timetree_exporter/manifest.json" ]; then
+            echo "❌ manifest.json missing"
+            exit 1
+          fi
+
+      - name: Create ZIP
+        run: |
+          cd custom_components
+          zip -r ../homeassistant_timetree_exporter.zip homeassistant_timetree_exporter
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: homeassistant_timetree_exporter.zip
