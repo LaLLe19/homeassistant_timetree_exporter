@@ -2,7 +2,7 @@
   <img src="logo.png" width="200" alt="TimeTree Exporter Logo">
 </p>
 
-<h1 align="center">Home Assistant TimeTree Exporter</h1>
+<h1 align="center">Homeassistant TimeTree Exporter</h1>
 
 <p align="center">
   <a href="https://hacs.xyz">
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**Home Assistant TimeTree Exporter** is a custom integration that exports one or more **TimeTree calendars** to **ICS files**, which can then be imported into Home Assistant’s calendar system.
+**Homeassistant TimeTree Exporter** is a custom integration that exports one or more **TimeTree calendars** to **ICS files**, which can then be imported into Home Assistant’s calendar system.
 
 ---
 
@@ -52,7 +52,7 @@ THX @eoleedi
 4. Add this repository  -> https://github.com/LaLLe19/timetree_exporter/
    - Type: **Integration**
 5. Install **TimeTree Exporter**
-6. Restart Home Assistant
+6. Restart Homeassistant
 
 ---
 
@@ -82,7 +82,7 @@ For each configured calendar, an ICS file is created under:
 
 ---
 
-## Using the ICS file in Home Assistant
+## Using the ICS file in Homeassistant
 
 ### ICS Calendar integration (recommended)
 
@@ -114,4 +114,4 @@ MIT License
 
 ## 🙌 Credits
 
-TimeTree Exporter (Python) - https://github.com/eoleedi/TimeTree-Exporter, ICS Calendar Integration - https://github.com/franc6/ics_calendar and Home Assistant Community
+TimeTree Exporter (Python) - https://github.com/eoleedi/TimeTree-Exporter, ICS Calendar Integration - https://github.com/franc6/ics_calendar and Homeassistant Community
