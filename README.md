@@ -49,7 +49,7 @@ THX @eoleedi
 1. Open **HACS**
 2. Go to **Integrations**
 3. Click   **⋮   →   Custom repositories**
-4. Add this repository  -> https://github.com/LaLLe19/timetree_exporter/
+4. Add this repository  -> https://github.com/LaLLe19/homeassistant_timetree_exporter/
    - Type: **Integration**
 5. Install **TimeTree Exporter**
 6. Restart Homeassistant
